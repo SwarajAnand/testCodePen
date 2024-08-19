@@ -1,3 +1,11 @@
 {
-    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
+    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }],
+    "build": {
+        "env": {
+            "CI": "false"
+        },
+        "npm": {
+            "installCommand": "npm install --legacy-peer-deps"
+        }
+    }
 }
