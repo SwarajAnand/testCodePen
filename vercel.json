@@ -1,4 +1,9 @@
 {
     "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }],
-    "buildCommand": "npm install --legacy-peer-deps && npm run build"
+    "builds": [
+        {
+          "src": "package.json",
+          "use": "@vercel/static-build"
+        }
+      ]
 }
