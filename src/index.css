@@ -102,3 +102,19 @@ body{
     background: #131417 !important;
   }
   
+
+/* slider styles  */
+.react-resizable-handle {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.react-resizable-handle-se {
+  cursor: se-resize; 
+  background: white;
+}
+
+
+
+
+
+  

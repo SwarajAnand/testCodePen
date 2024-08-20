@@ -82,7 +82,7 @@ const App = () => {
         <Spinner/>
       </div>
       :
-      <div className=" w-screen h-screen flex items-start justify-start overflow-hidden">
+      <div className=" w-screen h-screen flex items-start justify-start overflow-x-hidden">
       <Routes>
         {/* Initial route */}
         <Route path='/home/*' element={<Home/>}/>
